@@ -1,0 +1,35 @@
+{
+  "categoryId": "tech_general",
+  "categoryName": "一般",
+  "articles": [
+    {
+      "id": "https://www.publickey1.jp/blog/25/2025publickey_10_windowsmcpaws30wsl.html",
+      "title": "2025年にPublickeyでいちばん読まれた記事は？ 年間人気記事トップ10発表！ WindowsがMCPをサポート／AWSのシェアが30％を切る／WSLがオープンソースに、ほか",
+      "link": "https://www.publickey1.jp/blog/25/2025publickey_10_windowsmcpaws30wsl.html",
+      "pubDate": "2025-12-25T14:48:10.000Z",
+      "contentSnippet": "2025年もPublickeyをご愛読いただきましてありがとうございます。個人的なことですが今年は4月に父を亡くしまして、葬式の手配や相続の手続き、母親の一人暮らしの対応など、いろいろと慌ただしく過ぎていった年でした。読者の皆様にはどんな年だったのでしょうか。 さて、2025年にPublickeyが公開してきた記事の中で、読者に読まれた記事はどれだったのか？ ページビューが多かった順に年間トップ10の記事を紹介しましょう。 1位から3位 1位　［速報］マイクロソフト、Wind……"
+    },
+    {
+      "id": "https://www.publickey1.jp/blog/25/1passwordcursor1passwordcursorai.html",
+      "title": "パスワードマネージャの1PasswordとCursorが提携、1PasswordからCursorのAIエージェントにシークレットを安全に提供",
+      "link": "https://www.publickey1.jp/blog/25/1passwordcursor1passwordcursorai.html",
+      "pubDate": "2025-12-23T15:17:16.000Z",
+      "contentSnippet": "パスワードマネージャを提供している1Passwordは、AIエージェントを用いた開発ツールであるCursorと提携したことを発表しました。 人間の開発者と同じようにAIエージェントがさまざまなコードやデータを保持し、それらをコンパイラやビルドツール、テストツールなどを操作して開発を行うようになると、AIエージェントに対して適切な権限を付与するためのIDやパスワードなどのシークレットを付与する必要が生じます。 AIエージェントへのプロンプトや設定ファイルにこうしたシークレットを……"
+    },
+    {
+      "id": "https://www.publickey1.jp/blog/25/githubgithub_enterprise_cloud.html",
+      "title": "GitHub、コードやデータの保存場所を日本に指定できるデータレジデンシーをGitHub Enterprise Cloudで提供開始",
+      "link": "https://www.publickey1.jp/blog/25/githubgithub_enterprise_cloud.html",
+      "pubDate": "2025-12-22T15:50:44.000Z",
+      "contentSnippet": "GitHubは、日本においてデータレジデンシーに対応したGitHub Enterprise Cloudの一般提供を開始したことを発表しました。 医療機関や金融機関、政府機関など、顧客のプライバシーやセンシティブなコードやデータを扱う組織では、法律や規制などによってデータやコードの保存をすべて日本国の主権がおよぶ場所で行うことが求められます。 しかしGitHubが一般向けに提供している「GitHub.com」では、デフォルトでコードとデータを米国のデータセンターに保存することに……"
+    },
+    {
+      "id": "https://www.publickey1.jp/blog/25/anthropicaiagent_skillsvs_codecursor.html",
+      "title": "Anthropic、AIエージェントにタスクの手順や知識を組み込める「Agent Skills」をオープンスタンダードに。早くもVS CodeやCursorなどがサポート",
+      "link": "https://www.publickey1.jp/blog/25/anthropicaiagent_skillsvs_codecursor.html",
+      "pubDate": "2025-12-21T15:56:20.000Z",
+      "contentSnippet": "Anthropicは、同社のAIサービス「Claude」が備えてきた機能「Skills」を業界のオープンスタンダードにすべく「Agent Skills」仕様の公開を発表しました。 Agent Skillsは、AIエージェントにタスクごとの手順や知識を組み込むための仕組みです。 繰り返し行うタスクなどをAIエージェントに依頼する場合、あらかじめAIエージェントにAgent Skillsを読み込ませておくと、毎回細かな指示を行わなくてもAgent Skillsに設定しておいた手順……"
+    }
+  ],
+  "lastUpdated": "2025-12-29T21:39:53.052Z"
+}
