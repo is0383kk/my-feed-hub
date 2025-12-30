@@ -1,0 +1,247 @@
+{
+  "categoryId": "developers_io",
+  "categoryName": "Developers.IO",
+  "articles": [
+    {
+      "id": "7seN3lcD4i1a5OlOFtG5qE",
+      "title": "Amazon Connect テスト機能を試してみた！ #AWSreInvent",
+      "link": "https://dev.classmethod.jp/articles/amazon-connect-native-testing-simulation-capabilities/",
+      "pubDate": "2025-12-30T17:07:07.000Z",
+      "contentSnippet": "Amazon Connect テスト機能を試してみた！ #AWSreInvent",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "5LOxZtvAmOsNEaoM8cOsg4",
+      "title": "AWS DataSyncを用いてEC2上のファイルデータをFSx for OpenZFSに移行してみた",
+      "link": "https://dev.classmethod.jp/articles/2025-12-21-aws-ec2-file-data-migration-fsx-openzfs-use-datasync/",
+      "pubDate": "2025-12-30T15:50:39.000Z",
+      "contentSnippet": "AWS DataSyncを用いてEC2上のファイルデータをFSx for OpenZFSに移行してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3qRruf2OBUUojAORJwdhAl",
+      "title": "[小ネタ] Bedrock AgentCore Starter Toolkitにcreateコマンドが追加されていたので試してみた",
+      "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-starter-toolkit-create-command/",
+      "pubDate": "2025-12-30T15:23:54.000Z",
+      "contentSnippet": "[小ネタ] Bedrock AgentCore Starter Toolkitにcreateコマンドが追加されていたので試してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4gC9twRha5u5S3ZCrGUxGq",
+      "title": "Amazon Bedrock AgentCoreで障害調査お助け用Slackアプリを作成したらDevOpsAgentで良くね...？となった話",
+      "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-slack-devopsagent/",
+      "pubDate": "2025-12-30T15:09:33.000Z",
+      "contentSnippet": "Amazon Bedrock AgentCoreで障害調査お助け用Slackアプリを作成したらDevOpsAgentで良くね...？となった話",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "6carZNfzwr9834YhLVCceq",
+      "title": "初心者向けAWSセキュリティ学習のためのmini Security-JAWSの紹介と2025年の成果 #secjaws #minisecjaws #jawsug",
+      "link": "https://dev.classmethod.jp/articles/mini-security-jaws-2025-results/",
+      "pubDate": "2025-12-30T14:47:22.000Z",
+      "contentSnippet": "初心者向け中心に開催しているAWSセキュリティ学習のための定常的な勉強会であるmini Security-JAWSについて、2025年に行った活動を集計しながら紹介します。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "5K11AuFw8PhkNuazePFJeX",
+      "title": "個人版KiroのProへのアップグレード手順と初月日割り料金を確認してみた",
+      "link": "https://dev.classmethod.jp/articles/kiro-pro-builder-id-upgrade/",
+      "pubDate": "2025-12-30T14:07:40.000Z",
+      "contentSnippet": "AWS Builder IDで利用可能な個人版AIアシスタント「Kiro」を、FreeプランからProプランへアップグレードしました。2025年12月30日の契約において、初月料金がどのように日割り計算されるのか、実際の領収書（$1.05）とUTC時間ベースの試算を照らし合わせて確認しました。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "66SqDq3zoIxs7HhALs7PHZ",
+      "title": "製造業の異常検知を体系的に学ぶ「まるごと学べる異常検知の実践知」",
+      "link": "https://dev.classmethod.jp/articles/book-anomaly-detection/",
+      "pubDate": "2025-12-30T13:06:58.000Z",
+      "contentSnippet": "製造業における異常検知の各種ユースケースとその実装に向けた具体的な理論を解説した本。異常検知を実装する人にも導入する人にもオススメの書籍です。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "5BxF72w4FN1JyKEYrAnKAr",
+      "title": "AIエージェントを構築するワークショップをやってみた",
+      "link": "https://dev.classmethod.jp/articles/ai-agent-workshop/",
+      "pubDate": "2025-12-30T11:00:16.000Z",
+      "contentSnippet": "AIエージェントを構築するワークショップをやってみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "6XrwNViXqLz1q0o1XVGzU6",
+      "title": "AWS AI Factory について調べてみた #AWSreInvent",
+      "link": "https://dev.classmethod.jp/articles/aws-ai-factories-reinvent2025/",
+      "pubDate": "2025-12-30T10:14:50.000Z",
+      "contentSnippet": "AWS AI Factory について調べてみた #AWSreInvent",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "TLzzEdoerMflytXpvJ8AU",
+      "title": "AWS Lambda Managed Instances を API Gateway の Lambda プロキシ統合で実行してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-lambda-managed-instances-proxy-integration/",
+      "pubDate": "2025-12-30T08:56:20.000Z",
+      "contentSnippet": "AWS Lambda Managed Instances を API Gateway の Lambda プロキシ統合で実行してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "Etg61sFuSZemt8ROI7dzc",
+      "title": "[Chalk talk] New capabilities for achieving effective governance at scale に参加しました #COP365 #AWSreInvent",
+      "link": "https://dev.classmethod.jp/articles/202512-reinvent2025-cop365-chalktalk/",
+      "pubDate": "2025-12-30T08:55:48.000Z",
+      "contentSnippet": "[Chalk talk] New capabilities for achieving effective governance at scale に参加しました #COP365 #AWSreInvent",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4rHkhIbQc4833aeF1CLpal",
+      "title": "[アップデート] Amazon Quick Suite のチャットエージェントがメモリ機能を使ってユーザーにパーソナライズされた情報を認識・保存して回答してくれるようになりました",
+      "link": "https://dev.classmethod.jp/articles/quick-suite-memory-chat-agents/",
+      "pubDate": "2025-12-30T06:50:15.000Z",
+      "contentSnippet": "[アップデート] Amazon Quick Suite のチャットエージェントがメモリ機能を使ってユーザーにパーソナライズされた情報を認識・保存して回答してくれるようになりました",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "68bbVPGzoXpOqRQZXxUYFG",
+      "title": "DynamicFrameでJDBCソースからデータを取得するGlue Jobの作成とPredicate pushdownオプションを確認する",
+      "link": "https://dev.classmethod.jp/articles/glue-job-dynamicframe-jdbc-source-predicate-pushdown/",
+      "pubDate": "2025-12-30T06:05:02.000Z",
+      "contentSnippet": "sampleQueryオプションを指定することで、JDBCソースに対してPredicate pushdownができました。どのようなクエリが実行されるかデータベース側のログも確認しました。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4IbXm0Nl2FHYSl0AwNoyd0",
+      "title": "Kiro CLI のサブエージェント機能でリポジトリを自動解析して技術設計書を生成してみた",
+      "link": "https://dev.classmethod.jp/articles/kiro-cli-subagent-repository-analysis-technical-documentation/",
+      "pubDate": "2025-12-30T05:12:52.000Z",
+      "contentSnippet": "Kiro CLI のサブエージェント機能でリポジトリを自動解析して技術設計書を生成してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "i33NEP8NgqVdb6deAOQaD",
+      "title": "マルチリージョン並列デプロイで発生するサービスリンクロール競合問題とその対策",
+      "link": "https://dev.classmethod.jp/articles/service-linked-role-conflict-parallel-deployment/",
+      "pubDate": "2025-12-30T04:47:14.000Z",
+      "contentSnippet": "マルチリージョン並列デプロイで発生するサービスリンクロール競合問題とその対策",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "asfagJJcJiy635Of4gK88",
+      "title": "Gemini の Nano Banana Pro のマークアップ機能で図の部分修正が楽になるのか試してみた",
+      "link": "https://dev.classmethod.jp/articles/gemini-nano-banana-pro-markup-feature/",
+      "pubDate": "2025-12-30T03:11:02.000Z",
+      "contentSnippet": "Gemini の Nano Banana Pro のマークアップ機能で図の部分修正が楽になるのか試してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3nlZg2wrMmftenz2BLxf9n",
+      "title": "Agent Skills って何？ Anthropic の公式サンプル 16 個をすべて試してみた",
+      "link": "https://dev.classmethod.jp/articles/try-agent-skills-anthropic-samples/",
+      "pubDate": "2025-12-30T02:00:00.000Z",
+      "contentSnippet": "最近話題の Agent Skills を理解するために Anthropic が公開するサンプルスキルを一通り試してみました",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3ms87xYVTvKxK0kbJB6G1D",
+      "title": "Google Meetにタイマー機能が追加されていました",
+      "link": "https://dev.classmethod.jp/articles/google-meet-timer/",
+      "pubDate": "2025-12-30T01:47:52.000Z",
+      "contentSnippet": "Google Meetにタイマー機能が追加されていました",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4ObbvG2zsrzrV5zGmkAEHB",
+      "title": "Omniでの分析導線をスムーズにしよう！OmniでWorkbookでのGUI操作からTopicを作成してみた",
+      "link": "https://dev.classmethod.jp/articles/omni-make-topic-with-workbook/",
+      "pubDate": "2025-12-29T22:50:05.000Z",
+      "contentSnippet": "Omniでの分析導線をスムーズにしよう！OmniでWorkbookでのGUI操作からTopicを作成してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "21UfDHgDBv8RIiLRkDPolk",
+      "title": "Amazon Bedrock AgentCore Gateway の Request Interceptor でツール実行の認可制御を実装してみた",
+      "link": "https://dev.classmethod.jp/articles/bedrock-agentcore-gateway-request-interceptor-authorization/",
+      "pubDate": "2025-12-29T15:19:34.000Z",
+      "contentSnippet": "Amazon Bedrock AgentCore Gateway の Request Interceptor でツール実行の認可制御を実装してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3qgW6xRvGl8I1opnLbh21b",
+      "title": "Serverless Express v5 (Beta) で Node.js 24 がサポートされたので AWS Lambda で動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/serverless-express-v5-nodejs24-on-lambda/",
+      "pubDate": "2025-12-29T14:20:53.000Z",
+      "contentSnippet": "Serverless Express v5 (Beta) で Node.js 24 がサポートされたので AWS Lambda で動かしてみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "38WCOURqbrGfO3KbRnQyPX",
+      "title": "AWS CloudTrailのログをGrafana Lokiに取り込んで可視化してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-cloudtrail-grafana-loki/",
+      "pubDate": "2025-12-29T12:15:50.000Z",
+      "contentSnippet": "AWS CloudTrailのログをGrafana Lokiに取り込んで可視化してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "5ednKHMGOtHuRvykcgJZp4",
+      "title": "Databricksとdbt platformをパーソナルアクセストークンを使用して接続してみた",
+      "link": "https://dev.classmethod.jp/articles/databricks-dbt-platform/",
+      "pubDate": "2025-12-29T11:49:34.000Z",
+      "contentSnippet": "Databricksとdbt platformをパーソナルアクセストークンを使用して接続してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "pDSh7qBAOfXS0XkpF36yw",
+      "title": "AWS DevOps Agent（Preview）で Security Hub CSPM が検出した EC2 の脆弱性を調査できるのか試してみた",
+      "link": "https://dev.classmethod.jp/articles/aws-devops-agent-security-hub-cspm-vulnerability-investigation/",
+      "pubDate": "2025-12-29T11:33:58.000Z",
+      "contentSnippet": "AWS DevOps Agent（Preview）で Security Hub CSPM が検出した EC2 の脆弱性を調査できるのか試してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4IzXcSTMcUzyBdzawkujXJ",
+      "title": "「ストーリーで学ぶ！AWS提案の教科書」を読んで、提案の相談に乗ってくれる生成AIのプロンプトを作ってみた！",
+      "link": "https://dev.classmethod.jp/articles/aws-sales-yondemita/",
+      "pubDate": "2025-12-29T09:54:40.000Z",
+      "contentSnippet": "「ストーリーで学ぶ！AWS提案の教科書」を読んで、提案の相談に乗ってくれる生成AIのプロンプトを作ってみた！",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "7uPHmgsLv5hQL4fRKnmu8C",
+      "title": "DevRevでAirSyncを定期実行し、Zendeskの情報を自動同期してみた",
+      "link": "https://dev.classmethod.jp/articles/devrev-airsync-periodic-sync-setup/",
+      "pubDate": "2025-12-29T07:49:23.000Z",
+      "contentSnippet": "DevRevでAirSyncを定期実行し、Zendeskの情報を自動同期してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "49kUlI1jtQedFlKuu2k53b",
+      "title": "GlueのApache Icebergベースマテリアライズドビューの特徴まとめと、S3 Tables Catalog上での構成手順",
+      "link": "https://dev.classmethod.jp/articles/glue-apache-iceberg-s3-tables-catalog/",
+      "pubDate": "2025-12-29T06:07:24.000Z",
+      "contentSnippet": "GlueのApache Icebergベースマテリアライズドビューの特徴まとめと、S3 Tables Catalog上での構成手順",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "di1bXV6FDeox7fPIgkBN4",
+      "title": "データベースプレビュー環境で Aurora PostgreSQL 18.1 と RDS for MySQL 9.5 が利用可能になりました",
+      "link": "https://dev.classmethod.jp/articles/db-preview-mysql95-aurorapostgres181/",
+      "pubDate": "2025-12-29T01:33:08.000Z",
+      "contentSnippet": "データベースプレビュー環境で Aurora PostgreSQL 18.1 と RDS for MySQL 9.5 が利用可能になりました",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "29yvD1RZGQEWiIPtTrO93Z",
+      "title": "CloudFront の定額プランで用意した WebACL を使用できるか教えてください",
+      "link": "https://dev.classmethod.jp/articles/tsnote-cloudfront-flat-rate-plan-webacl-usage/",
+      "pubDate": "2025-12-29T01:15:17.000Z",
+      "contentSnippet": "CloudFront の定額プランで用意した WebACL を使用できるか教えてください",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "37SNnqKhiwCyN2QXmBi3AK",
+      "title": "Amazon Bedrock AgentCore Gateway の Response Interceptor で利用できるツール情報一覧をフィルタリングしてみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-bedrock-agentcore-gateway-response-interceptor/",
+      "pubDate": "2025-12-28T15:24:25.000Z",
+      "contentSnippet": "Amazon Bedrock AgentCore Gateway の Response Interceptor で利用できるツール情報一覧をフィルタリングしてみた",
+      "siteName": "Developers.IO"
+    }
+  ],
+  "lastUpdated": "2025-12-30T17:47:16.971Z"
+}
