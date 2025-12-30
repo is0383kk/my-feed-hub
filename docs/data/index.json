@@ -3,15 +3,15 @@
     {
       "id": "tech_general",
       "name": "一般",
-      "articleCount": 4,
+      "articleCount": 15,
       "dataFile": "tech_general.json"
     },
     {
       "id": "aws",
       "name": "AWS",
-      "articleCount": 0,
+      "articleCount": 100,
       "dataFile": "aws.json"
     }
   ],
-  "generatedAt": "2025-12-29T21:39:53.187Z"
+  "generatedAt": "2025-12-30T07:07:18.987Z"
 }
