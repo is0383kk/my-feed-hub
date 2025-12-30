@@ -1,66 +1,70 @@
 # my-feed-hub
 
-RSS フィードから自動収集した記事を GitHub Pages で一覧表示するツールです。
+<div align="center" style="font-size: 1.1rem; margin-bottom: 1rem;"><sub>
+<a href="./README.md">English</a> | <a href="./README_ja.md">日本語</a>
+</sub></div>
 
-## １．機能概要
+A tool for automatically collecting articles from RSS feeds and displaying them on GitHub Pages.
 
-- RSS フィードから記事を自動収集
-- GitHub Pages での記事一覧表示
-- 90 日間のデータ保持（古いデータは自動削除）
-- （オプション）Discord Hook 機能を使って Discord チャンネルに投稿することも可能です
+## 1. Features
 
-## ２．ディレクトリ構造
+- Automatic article collection from RSS feeds
+- Article list display on GitHub Pages
+- 90-day data retention (old data is automatically deleted)
+- (Optional) Discord channel posting via Discord Webhook
+
+## 2. Directory Structure
 
 ```
 my-feed-hub/
 ├── .github/
 │   └── workflows/
-│       └── collect.yml          # GitHub Actions ワークフロー（3時間ごとに実行）
-├── docs/                         # GitHub Pages 公開ディレクトリ
-│   ├── data/                     # 記事データ（90日間保持、自動更新）
-│   │   ├── {categoryId}.json   # カテゴリ別記事データ
-│   │   └── index.json           # カテゴリ一覧インデックス
-│   ├── index.html               # メインページ
-│   ├── app.js                   # フロントエンドロジック
-│   └── style.css                # スタイルシート
-├── src/                         # バックエンドソースコード
-│   ├── index.js                 # メイン処理（オーケストレーション）
-│   ├── feedCollector.js         # RSS収集
-│   ├── dataManager.js           # データ管理（90日保持ポリシー）
-│   ├── historyManager.js        # 投稿履歴管理（重複投稿防止）
-│   └── discordPoster.js         # Discord通知
-├── categories.example.json      # カテゴリ設定のテンプレート
-├── categories.json              # カテゴリ・RSSフィード設定（ユーザー作成、Git管理外）
-├── post-history.json            # Discord投稿履歴（90日間保持、リポジトリ管理）
-├── server.js                    # ローカルプレビューサーバー
-└── package.json                 # npm設定・依存関係
+│       └── collect.yml          # GitHub Actions workflow (runs every 3 hours)
+├── docs/                         # GitHub Pages publication directory
+│   ├── data/                     # Article data (retained for 90 days, automatically updated)
+│   │   ├── {categoryId}.json   # Category-specific article data
+│   │   └── index.json           # Category list index
+│   ├── index.html               # Main page
+│   ├── app.js                   # Frontend logic
+│   └── style.css                # Stylesheet
+├── src/                         # Backend source code
+│   ├── index.js                 # Main processing (orchestration)
+│   ├── feedCollector.js         # RSS collection
+│   ├── dataManager.js           # Data management (90-day retention policy)
+│   ├── historyManager.js        # Post history management (duplicate post prevention)
+│   └── discordPoster.js         # Discord notification
+├── categories.example.json      # Category configuration template
+├── categories.json              # Category & RSS feed configuration (user-created, not Git-managed)
+├── post-history.json            # Discord post history (retained for 90 days, repository-managed)
+├── server.js                    # Local preview server
+└── package.json                 # npm configuration & dependencies
 ```
 
-**重要なポイント:**
+**Important Points:**
 
-- `docs/` 配下のみが GitHub Pages で公開されます
-- `post-history.json` はプロジェクト直下に配置され、GitHub Pages では公開されません
-- 記事データと投稿履歴は両方とも 90 日間のみ保持され、リポジトリ肥大化を防ぎます
+- Only the `docs/` directory is published on GitHub Pages
+- `post-history.json` is placed in the project root and is not published on GitHub Pages
+- Both article data and post history are retained for only 90 days to prevent repository bloat
 
-## ３．使い方
+## 3. Setup
 
-### ■ リポジトリをフォーク
+### ■ Fork the Repository
 
-このリポジトリをフォークして、自分の GitHub アカウントにコピーします。
+Fork this repository to copy it to your own GitHub account.
 
-### ■ GitHub Pages の有効化
+### ■ Enable GitHub Pages
 
-フォークしたリポジトリの **Settings > Pages** で以下を設定します：
+Configure the following in **Settings > Pages** of your forked repository:
 
 - Source: GitHub Actions
 
-### ■ カテゴリの設定
+### ■ Configure Categories
 
-フォークしたリポジトリの `categories.json` を編集して、収集したい RSS フィードを設定します。
+Edit `categories.json` in your forked repository to configure the RSS feeds you want to collect.
 
-**注意:** リポジトリには `categories.json` がサンプルとして含まれていますが、これは`is0383kk`の個人設定です。必ず自分の RSS フィードに編集してください。
+**Note:** The repository includes `categories.json` as a sample, but this contains `is0383kk`'s personal configuration. Be sure to edit it with your own RSS feeds.
 
-#### `categories.json` の例
+#### Example `categories.json`
 
 ```json
 {
@@ -81,21 +85,21 @@ my-feed-hub/
 }
 ```
 
-**各項目の説明:**
+**Field Descriptions:**
 
-- `name`: 表示用のカテゴリ名
-- `id`: カテゴリの識別子（英数字とアンダースコアのみ、データファイル名に使用される）
-- `feedUrl`: RSS フィードの URL
-- `webhookEnvKey`: Discord Webhook 用環境変数の名前（オプション）
+- `name`: Category name for display
+- `id`: Category identifier (alphanumeric and underscores only, used for data file names)
+- `feedUrl`: RSS feed URL
+- `webhookEnvKey`: Environment variable name for Discord Webhook (optional)
 
-### ■ 環境変数の設定（オプション）
+### ■ Configure Environment Variables (Optional)
 
-Discord に通知させる場合は、フォークしたリポジトリの **Settings > Secrets and variables > Actions** で新しいシークレットを追加します。
+To enable Discord notifications, add a new secret in **Settings > Secrets and variables > Actions** of your forked repository.
 
 - Name: `DISCORD_WEBHOOK_AWS`
 - Secret: Discord Webhook URL
 
-`.github/workflows/collect.yml` 上で シークレットを参照できるようにします。
+Reference the secrets in `.github/workflows/collect.yml`:
 
 ```yaml
 env:
@@ -103,68 +107,68 @@ env:
   DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
 ```
 
-### ■ ワークフローの実行
+### ■ Run the Workflow
 
-`categories.json` を編集してコミット・プッシュすると、GitHub Actions が自動実行されます。  
-または、**Actions > feed-collector-and-poster > Run workflow** でワークフローを手動実行することも可能です。  
-ワークフロー実行後、GitHub Pages 上にデプロイされた WEB ページを確認します。
+When you edit `categories.json` and commit/push, GitHub Actions will automatically execute.  
+Alternatively, you can manually execute the workflow at **Actions > feed-collector-and-poster > Run workflow**.  
+After the workflow execution, check the web page deployed on GitHub Pages.
 
-## ４．ローカル環境下での動作確認
+## 4. Local Environment Testing
 
-### ■ 依存関係のインストール
+### ■ Install Dependencies
 
 ```bash
 npm install
 ```
 
-### ■ 情報収集と Discord への投稿
+### ■ Data Collection and Discord Posting
 
-ローカルで実行して動作確認する場合は下記コマンドを実行します
-`docs/data`配下に収集結果が格納されます
+To run and test locally, execute the following command.  
+The collection results will be stored in `docs/data`.
 
 ```bash
 npm start
 ```
 
-### ■ WEB ページのローカルプレビュー
+### ■ Local Web Page Preview
 
-収集した記事一覧情報をブラウザで確認する場合は、ローカルサーバーを起動します。
+To view the collected article list in a browser, start the local server:
 
 ```bash
 npm run preview
 ```
 
-ブラウザで `http://localhost:3000` を開くと、GitHub Pages と同じページが表示されます。
+Open `http://localhost:3000` in your browser to see the same page as GitHub Pages.
 
-**注意:** 直接 `docs/index.html` をブラウザで開くと CORS エラーが発生するため、必ずローカルサーバーを使用してください。
+**Note:** Opening `docs/index.html` directly in a browser will cause CORS errors, so be sure to use the local server.
 
-## ５．その他
+## 5. Additional Configuration
 
-### ■ 実行間隔の変更
+### ■ Change Execution Interval
 
-`.github/workflows/collect.yml` の `cron` 設定を変更します。
+Modify the `cron` setting in `.github/workflows/collect.yml`:
 
 ```yaml
 schedule:
-  - cron: "0 */3 * * *" # 3時間毎
+  - cron: "0 */3 * * *" # Every 3 hours
 ```
 
-### ■ データ保持期間の変更
+### ■ Change Data Retention Period
 
-`src/dataManager.js` の定数を変更します。
+Modify the constant in `src/dataManager.js`:
 
 ```javascript
-const RETENTION_DAYS = 90; // 日数を変更
+const RETENTION_DAYS = 90; // Change the number of days
 ```
 
-### ■ Discord 投稿のカスタマイズ
+### ■ Customize Discord Posts
 
-`src/discordPoster.js` の `postToDiscord` 関数内の embed オブジェクトを編集します。
+Edit the embed object in the `postToDiscord` function in `src/discordPoster.js`.
 
-### ■ 初回実行時の挙動
+### ■ Initial Execution Behavior
 
-初回実行時の投稿数を変更する場合は `src\index.js` の定数を変更します。
+To change the number of posts on initial execution, modify the constant in `src\index.js`:
 
 ```javascript
-const FILTER_DAYS = 30; // 初回実行時に遡る日数
+const FILTER_DAYS = 30; // Number of days to look back on initial execution
 ```
