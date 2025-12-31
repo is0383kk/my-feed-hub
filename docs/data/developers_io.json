@@ -3,11 +3,27 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "2aovmG0yPE4COT52W2KLW8",
+      "title": "[AIM380][Code Talk] ツール呼び出しを強化するために Amazon Nova モデルをカスタマイズする #AWSreInvent",
+      "link": "https://dev.classmethod.jp/articles/aim380-code-talk-amazon-nova-awsreinvent/",
+      "pubDate": "2025-12-31T15:00:15.000Z",
+      "contentSnippet": "[AIM380][Code Talk] ツール呼び出しを強化するために Amazon Nova モデルをカスタマイズする #AWSreInvent",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "2kBgkkgX9yntB6IgjRiZme",
+      "title": "プロンプトエンジニアリングガイドを自動翻訳してみた",
+      "link": "https://dev.classmethod.jp/articles/translation-prompt-engineering-guide/",
+      "pubDate": "2025-12-31T13:37:02.000Z",
+      "contentSnippet": "生成AIが「エージェント」へと進化した2025年。その根幹となるプロンプトエンジニアリングを体系的に学ぶため、『Prompt Engineering Guide』を自動翻訳ツールで日本語化してみました。",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "9OgI6SAgP3CCVcmFXkVwF",
-      "title": "API Gateway と Lambda のサーバーレスバックエンド構成で Express を動かしてみた",
+      "title": "API Gateway と Lambda のサーバーレス構成で Express を動かしてみた",
       "link": "https://dev.classmethod.jp/articles/shoma-api-gateway-lambda-serverless-backend-run-express-tried/",
       "pubDate": "2025-12-31T12:17:59.000Z",
-      "contentSnippet": "API Gateway と Lambda のサーバーレスバックエンド構成で Express を動かしてみた",
+      "contentSnippet": "API Gateway と Lambda のサーバーレス構成で Express を動かしてみた",
       "siteName": "Developers.IO"
     },
     {
@@ -371,5 +387,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2025-12-31T12:27:47.559Z"
+  "lastUpdated": "2025-12-31T15:14:01.567Z"
 }
