@@ -3,6 +3,30 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "6tpdzffZ2ENbUWMFF0pkhN",
+      "title": "Omniの初期セットアップ（Connection作成・dbt連携・権限設定・etc）をやってみた",
+      "link": "https://dev.classmethod.jp/articles/omni-try-initial-setup/",
+      "pubDate": "2025-12-30T23:35:05.000Z",
+      "contentSnippet": "Omniの初期セットアップ（Connection作成・dbt連携・権限設定・etc）をやってみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "2geblmEJji58OkHIrc6Hri",
+      "title": "【Gemini × Google Sites】 HTMLわからなくてもできた！Geminiでハンズオン資料のウェブページを作成してみた",
+      "link": "https://dev.classmethod.jp/articles/notebooklm_handson_gemini/",
+      "pubDate": "2025-12-30T23:00:23.000Z",
+      "contentSnippet": "ノーコードツール（Google Sites）の手軽さと生成AIのコーディング能力（Gemini）を組み合わせて、専門知識不要でウェブページ作成が可能であることを実証。ノーコードツールに「AIが書いたコード」を埋め込み、NoteookLMハンズオンの資料作成をした記録。AIの「いいとこ取り」してみた。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3UJ824xrEe6jDNxZ9ouFzc",
+      "title": "[アップデート] コスト配分タグに IAM Identity Center の一部のユーザー属性が利用できるようになりました",
+      "link": "https://dev.classmethod.jp/articles/cost-allocation-using-users-attributes/",
+      "pubDate": "2025-12-30T22:23:05.000Z",
+      "contentSnippet": "[アップデート] コスト配分タグに IAM Identity Center の一部のユーザー属性が利用できるようになりました",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "7seN3lcD4i1a5OlOFtG5qE",
       "title": "Amazon Connect テスト機能を試してみた！ #AWSreInvent",
       "link": "https://dev.classmethod.jp/articles/amazon-connect-native-testing-simulation-capabilities/",
@@ -243,5 +267,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2025-12-30T21:13:29.051Z"
+  "lastUpdated": "2025-12-31T01:06:07.502Z"
 }
