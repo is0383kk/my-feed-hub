@@ -3,6 +3,46 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "9OgI6SAgP3CCVcmFXkVwF",
+      "title": "API Gateway と Lambda のサーバーレスバックエンド構成で Express を動かしてみた",
+      "link": "https://dev.classmethod.jp/articles/shoma-api-gateway-lambda-serverless-backend-run-express-tried/",
+      "pubDate": "2025-12-31T12:17:59.000Z",
+      "contentSnippet": "API Gateway と Lambda のサーバーレスバックエンド構成で Express を動かしてみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3T2B0IsFr3VMypKg596ekQ",
+      "title": "[Chalk talk] Agile governance: Deploy AWS Control Tower in your current environment に参加しました #COP354 #AWSreInvent",
+      "link": "https://dev.classmethod.jp/articles/202512-reinvent2025-cop354-chalktalk/",
+      "pubDate": "2025-12-31T11:36:31.000Z",
+      "contentSnippet": "[Chalk talk] Agile governance: Deploy AWS Control Tower in your current environment に参加しました #COP354 #AWSreInvent",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "4fiSZTEbbp9k4iEvPi0H4L",
+      "title": "AWS Media Servicesの2025年を振り返ってみる",
+      "link": "https://dev.classmethod.jp/articles/what-was-new-for-aws-media-services-in-2025/",
+      "pubDate": "2025-12-31T10:40:55.000Z",
+      "contentSnippet": "2025年のAWS Media Sevicesに関連するアップデート情報をまとめてみました。独自集計によるとWhat's New at AWSへのポストでは34個のアップデートがありました。またこれ以上にたくさんのAPI更新がありました。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "1aUeHMrOJugtRzKQmGAnK0",
+      "title": "Amazon Route 53で管理しているドメインを別アカウントに移管してみた",
+      "link": "https://dev.classmethod.jp/articles/2025-12-31-route53-domain-cross-account-migration/",
+      "pubDate": "2025-12-31T09:49:07.000Z",
+      "contentSnippet": "Amazon Route 53で管理しているドメインを別アカウントに移管してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "6a7H77ES4ivMKwbytEp8qx",
+      "title": "[アップデート] Amazon WorkSpaces Applications (旧AppStream 2.0)でWindows Server 2025とUbuntu Pro 24.04が利用可能になりました",
+      "link": "https://dev.classmethod.jp/articles/amazon-workspaces-applications-supports-ubuntu-pro-windows-server-2025/",
+      "pubDate": "2025-12-31T09:44:17.000Z",
+      "contentSnippet": "[アップデート] Amazon WorkSpaces Applications (旧AppStream 2.0)でWindows Server 2025とUbuntu Pro 24.04が利用可能になりました",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "2Irdtyup4Fi4V08K4b5b0M",
       "title": "「Kiro」の料金プラン損益分岐点を試算、月末アップグレードによるコスト最適化を検証してみた",
       "link": "https://dev.classmethod.jp/articles/kiro-cost-optimization-month-end/",
@@ -331,5 +371,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2025-12-31T09:17:35.880Z"
+  "lastUpdated": "2025-12-31T12:27:47.559Z"
 }
