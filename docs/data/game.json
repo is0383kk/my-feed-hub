@@ -3,6 +3,30 @@
   "categoryName": "ゲーム",
   "articles": [
     {
+      "id": "https://automaton-media.com/?p=394236",
+      "title": "配信終了となった彩京STGのSteam版、販売元を変えて再リリース。まずは『戦国エース』『ガンバード』『ストライカーズ1945』から",
+      "link": "https://automaton-media.com/articles/newsjp/shooting-20251231-394236/",
+      "pubDate": "2025-12-31T04:53:44.000Z",
+      "contentSnippet": "パブリッシャーのKMBOXは12月30日、シューティングゲーム『戦国エース』『GunBird』『Strikers 1945』のPC（Steam）版を配信した。",
+      "siteName": "AUTOMATON"
+    },
+    {
+      "id": "https://automaton-media.com/?p=394200",
+      "title": "『ハンドレッドライン（ハンドラ）』の“100個あるエンディングをもっと増やしたい”と開発者が語る。好調が続けば「TWO HUNDRED LINE」になるかも",
+      "link": "https://automaton-media.com/articles/newsjp/hundre-20251231-394200/",
+      "pubDate": "2025-12-31T04:26:12.000Z",
+      "contentSnippet": "『HUNDRED LINE -最終防衛学園-』のディレクターも務める小高和剛氏によれば、本作のエンディングをさらに追加し、「TWO HUNDRED LINE」と呼べるほどにしていきたいという構想があるようだ。",
+      "siteName": "AUTOMATON"
+    },
+    {
+      "id": "https://automaton-media.com/?p=394202",
+      "title": "Valveの新VRデバイス「Steam Frame」は、注目されるべきデバイスだ。VRじゃない部分に秘めた革命的な機能",
+      "link": "https://automaton-media.com/articles/newsjp/steamframe-20251231-394202/",
+      "pubDate": "2025-12-31T04:23:35.000Z",
+      "contentSnippet": "実はSteam FrameはVRじゃない部分にビックリする機能が搭載された、Valveの野望がほとばしるマシンなのだ。",
+      "siteName": "AUTOMATON"
+    },
+    {
       "id": "https://automaton-media.com/?p=394081",
       "title": "Steamで2025年好評殺到した国産ヒットゲーム開発者、みんな“予想外の成功”だった。『Chill with You：Lo-Fi Story』『Öoo』『DRAPLINE』開発者が振り返る、意外な高評価の裏側",
       "link": "https://automaton-media.com/articles/columnjp/20251231-394081/",
@@ -279,5 +303,5 @@
       "contentSnippet": "“趣味で”MMORPGを作った開発者の投稿が、海外掲示板Redditで話題となっている。"
     }
   ],
-  "lastUpdated": "2025-12-31T03:57:09.578Z"
+  "lastUpdated": "2025-12-31T06:22:19.256Z"
 }
