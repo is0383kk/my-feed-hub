@@ -3,6 +3,22 @@
   "categoryName": "ゲーム",
   "articles": [
     {
+      "id": "https://automaton-media.com/?p=394864",
+      "title": "「怪獣８号」基本プレイ無料RPG『怪獣８号 THE GAME』新アプデで「怪獣の王」を迎撃するメインストーリー7章到来。“衛星爆撃”もできる新★5キャラ王美星（ワン・メイシン）も実装",
+      "link": "https://automaton-media.com/articles/newsjp/20260101-394864/",
+      "pubDate": "2026-01-01T09:00:01.000Z",
+      "contentSnippet": "『怪獣８号 THE GAME』の最新アップデートが実施され、メインストーリー7章と★5キャラクター王美星が実装された。",
+      "siteName": "AUTOMATON"
+    },
+    {
+      "id": "https://automaton-media.com/?p=394745",
+      "title": "「2025年のAUTOMATONで、特に読まれた新作ゲーム記事」紹介。ドタバタ協力プレイから“時間泥棒”まで、発売中の見逃せないタイトルもいっぱい",
+      "link": "https://automaton-media.com/articles/newsjp/20260101-394745/",
+      "pubDate": "2026-01-01T08:00:19.000Z",
+      "contentSnippet": "本稿では、弊誌で2025年中に取り上げたゲーム紹介記事のうち、特に人気/話題となったゲームタイトルをピックアップして紹介している。",
+      "siteName": "AUTOMATON"
+    },
+    {
       "id": "https://automaton-media.com/?p=394770",
       "title": "大手PCメーカーASUS、一部製品の値上げを実施へ。世界的メモリ高騰を受けて",
       "link": "https://automaton-media.com/articles/newsjp/asus-20260101-394770/",
@@ -343,5 +359,5 @@
       "contentSnippet": "“趣味で”MMORPGを作った開発者の投稿が、海外掲示板Redditで話題となっている。"
     }
   ],
-  "lastUpdated": "2026-01-01T06:22:21.606Z"
+  "lastUpdated": "2026-01-01T09:17:47.577Z"
 }

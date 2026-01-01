@@ -9,7 +9,7 @@
     {
       "id": "developers_io",
       "name": "Developers.IO",
-      "articleCount": 54,
+      "articleCount": 56,
       "dataFile": "developers_io.json"
     },
     {
@@ -21,9 +21,9 @@
     {
       "id": "game",
       "name": "ゲーム",
-      "articleCount": 43,
+      "articleCount": 45,
       "dataFile": "game.json"
     }
   ],
-  "generatedAt": "2026-01-01T06:22:21.611Z"
+  "generatedAt": "2026-01-01T09:17:47.581Z"
 }

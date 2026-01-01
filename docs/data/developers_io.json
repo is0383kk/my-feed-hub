@@ -3,6 +3,22 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "26ySyhPSyjkd8WBdQURwd5",
+      "title": "EC2 Auto Scaling の Instance Refresh 新機能 「Replace Root Volume」を試してみた",
+      "link": "https://dev.classmethod.jp/articles/ec2-autoscaling-instance-refresh-replace-root-volume/",
+      "pubDate": "2026-01-01T08:35:19.000Z",
+      "contentSnippet": "EC2 Auto Scaling の Instance Refresh 新機能 「Replace Root Volume」を試してみた",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "3kF6BRUePIkuE332lv6Z0i",
+      "title": "[アップデート] CloudTrail Lake のデータを簡単に CloudWatch Logs にインポート可能になりました",
+      "link": "https://dev.classmethod.jp/articles/simplified-import-from-cloudtrail-lake-to-cloudwatch-logs/",
+      "pubDate": "2026-01-01T06:39:30.000Z",
+      "contentSnippet": "[アップデート] CloudTrail Lake のデータを簡単に CloudWatch Logs にインポート可能になりました",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "pKhyhXzPiK0t7FgUlqwjC",
       "title": "フィードバックを送る側の姿勢と受け取る側の姿勢に応じた選択肢を Gemini で整理する",
       "link": "https://dev.classmethod.jp/articles/feedback-four-quadrants/",
@@ -435,5 +451,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2026-01-01T06:22:19.852Z"
+  "lastUpdated": "2026-01-01T09:17:45.749Z"
 }
