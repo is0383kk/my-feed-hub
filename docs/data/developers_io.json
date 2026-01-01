@@ -3,6 +3,30 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "pKhyhXzPiK0t7FgUlqwjC",
+      "title": "フィードバックを送る側の姿勢と受け取る側の姿勢に応じた選択肢を Gemini で整理する",
+      "link": "https://dev.classmethod.jp/articles/feedback-four-quadrants/",
+      "pubDate": "2026-01-01T06:12:23.000Z",
+      "contentSnippet": "フィードバックは送る側、受け取る側がいて、それぞれの特性によって必要なフィードバックは異なります。\nそれぞれの要素を整理したうえで、それを踏まえて整理するための Gemini のプロンプトを試してみます。",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "14BIV48y6GfAAHDjzk9nGg",
+      "title": "2025 年 12 月の AWS テクニカルサポートノートまとめ",
+      "link": "https://dev.classmethod.jp/articles/summary-of-aws-technical-support-notes-for-december-2025/",
+      "pubDate": "2026-01-01T06:00:20.000Z",
+      "contentSnippet": "2025 年 12 月の AWS テクニカルサポートノートまとめ",
+      "siteName": "Developers.IO"
+    },
+    {
+      "id": "1xcOB6hKhJu8aHlrQUgN37",
+      "title": "Amazon ECR リポジトリ作成テンプレートとCreate on pushを試してみた",
+      "link": "https://dev.classmethod.jp/articles/amazon-ecr-repository-creation-templates-create-on-push/",
+      "pubDate": "2026-01-01T05:40:34.000Z",
+      "contentSnippet": "Amazon ECR リポジトリ作成テンプレートとCreate on pushを試してみた",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "txNYLyvHbhHpE8YGK9c7m",
       "title": "Amazon GuardDuty が ECS の 拡張脅威検出に対応したため検出させてみた #AWSreInvent",
       "link": "https://dev.classmethod.jp/articles/amazon-guardduty-ecs-extended-threat-detection-reinvent2025/",
@@ -411,5 +435,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2026-01-01T04:06:19.604Z"
+  "lastUpdated": "2026-01-01T06:22:19.852Z"
 }
