@@ -3,6 +3,14 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "4n8Di5ihRiI5o9SrZz6q0t",
+      "title": "uvでdbt Core環境を構築し、VS Code（dbt Power User）からSnowflakeに接続してみた",
+      "link": "https://dev.classmethod.jp/articles/uv-dbt-core-vs-code-dbt-power-user-snowflake/",
+      "pubDate": "2026-01-02T14:05:23.000Z",
+      "contentSnippet": "uvでdbt Core環境を構築し、VS Code（dbt Power User）からSnowflakeに接続してみた",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "BSYX8ocshdxY4rqa7XXGM",
       "title": "ECS Express Mode で作成したサービスにカスタムドメインを設定してみた #AWSreInvent",
       "link": "https://dev.classmethod.jp/articles/ecs-express-mode-custom-domain-configuration/",
@@ -499,5 +507,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2026-01-02T12:26:45.713Z"
+  "lastUpdated": "2026-01-02T15:14:29.856Z"
 }
