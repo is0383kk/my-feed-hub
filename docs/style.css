@@ -408,9 +408,18 @@ body {
   transform: translateY(-2px);
 }
 
+/* 記事カードヘッダー（タイトルとコピーボタンを含む） */
+.article-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .article-title {
   font-size: 1.1rem;
-  margin-bottom: 0.75rem;
+  flex: 1;
+  margin-bottom: 0;
 }
 
 .article-title a {
@@ -421,6 +430,44 @@ body {
 
 .article-title a:hover {
   color: var(--accent-color);
+}
+
+/* コピーボタン */
+.copy-link-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.3s;
+  flex-shrink: 0;
+}
+
+.copy-link-btn:hover {
+  background-color: var(--accent-color);
+  color: white;
+  transform: scale(1.05);
+}
+
+.copy-link-btn:active {
+  transform: scale(0.95);
+}
+
+.copy-link-btn.copied {
+  background-color: #4caf50;
+  color: white;
+}
+
+.copy-link-btn svg {
+  width: 18px;
+  height: 18px;
 }
 
 .article-meta {
@@ -603,8 +650,24 @@ body {
     padding: 1rem;
   }
 
+  .article-card-header {
+    gap: 0.5rem;
+  }
+
   .article-title {
     font-size: 0.8rem;
+  }
+
+  .copy-link-btn {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+  }
+
+  .copy-link-btn svg {
+    width: 16px;
+    height: 16px;
   }
 
   .article-meta {

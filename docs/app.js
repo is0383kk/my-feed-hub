@@ -292,6 +292,10 @@ function createArticleCard(article, showCategory = false) {
   const card = document.createElement('article');
   card.className = 'article-card';
 
+  // カードヘッダー（タイトルとコピーボタンを含む）
+  const cardHeader = document.createElement('div');
+  cardHeader.className = 'article-card-header';
+
   const title = document.createElement('h3');
   title.className = 'article-title';
 
@@ -308,7 +312,54 @@ function createArticleCard(article, showCategory = false) {
   }
 
   title.appendChild(link);
-  card.appendChild(title);
+  cardHeader.appendChild(title);
+
+  // コピーボタンを作成
+  const copyButton = document.createElement('button');
+  copyButton.className = 'copy-link-btn';
+  copyButton.setAttribute('aria-label', 'リンクをコピー');
+  copyButton.setAttribute('title', 'リンクをコピー');
+
+  // コピーアイコン（デフォルト）
+  copyButton.innerHTML = `
+    <svg class="copy-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+    </svg>
+    <svg class="check-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+  `;
+
+  // コピーボタンのクリックイベント
+  copyButton.addEventListener('click', async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    try {
+      await navigator.clipboard.writeText(article.link);
+
+      // アイコンを切り替え（コピー成功のフィードバック）
+      const copyIcon = copyButton.querySelector('.copy-icon');
+      const checkIcon = copyButton.querySelector('.check-icon');
+
+      copyIcon.style.display = 'none';
+      checkIcon.style.display = 'block';
+      copyButton.classList.add('copied');
+
+      // 2秒後に元に戻す
+      setTimeout(() => {
+        copyIcon.style.display = 'block';
+        checkIcon.style.display = 'none';
+        copyButton.classList.remove('copied');
+      }, 2000);
+    } catch (err) {
+      console.error('Failed to copy link:', err);
+    }
+  });
+
+  cardHeader.appendChild(copyButton);
+  card.appendChild(cardHeader);
 
   // メタ情報
   const meta = document.createElement('div');
