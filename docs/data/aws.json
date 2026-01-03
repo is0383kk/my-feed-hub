@@ -243,11 +243,163 @@
       "siteName": "AWS What's New"
     },
     {
+      "id": "2c0e8beddaf11091630ec57ca0067cc556ae7a4c",
+      "title": "Vercel マーケットプレイスで AWS データベースが入手可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-databases-are-available-on-the-vercel/",
+      "pubDate": "2025-12-17T18:00:00.000Z",
+      "contentSnippet": "現在 Vercel マーケットプレイスで、Amazon Aurora PostgreSQL、Amazon Aurora DSQL、Amazon DynamoDB を含む AWS データベースが一般提供中なので、Vercel から直接 AWS データベースを数秒で作成して接続できます。\n  使用を開始するには、Vercel から新しい AWS アカウントを作成できます。このアカウントには、3 つのデータベースへのアクセス権と 100 USD のクレジットが含まれます。このクレジットは、これらのどのデータベースオプションでも最長 6 か月間使用できます。アカウントを設定すると、数秒で本番対応の Aurora データベースや DynamoDB テーブルを使用して Vercel プロジェクトを稼働できるようになります。また、Vercel ダッシュボードから AWS 設定ポータルにアクセスして、プランの管理、支払い情報の追加、使用状況の詳細の表示をいつでも行うことができます。詳細については、Vercel マーケットプレイスの AWS のランディングページをご覧ください。\n  この統合には、Amazon Aurora PostgreSQL、Amazon Aurora DSQL、Amazon DynamoDB のサーバーレスオプションが含まれており、アプリケーションのニーズを簡略化し、使用していないときにゼロにスケーリングしてコストを削減することができます。データベースは、米国東部 (バージニア北部)、米国東部 (オハイオ)、米国西部 (オレゴン)、欧州 (アイルランド)、欧州 (フランクフルト)、アジアパシフィック (東京)、アジアパシフィック (ムンバイ) の各 AWS リージョンで作成でき、今後さらにリージョンが追加される予定です。\n  AWS データベースは、次なる大きなアイデアのプロトタイプを作成する場合でも、本番環境で AI やデータ駆動型アプリケーションを実行する場合でも、運用上のオーバーヘッドなしでセキュリティ、信頼性、コストパフォーマンスを向上させます。詳細については、AWS データベースのウェブページをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "b709f05943046f9ecbf4fe02cb06335409836d0b",
+      "title": "Amazon EC2 M8Gn および M8GB インスタンスの一般提供を開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/generally-available-amazon-ec2-m8gn-m8gb-instances",
+      "pubDate": "2025-12-17T18:00:00.000Z",
+      "contentSnippet": "AWS は本日、新しい Amazon Elastic Compute Cloud (Amazon EC2) M8gn および M8gb インスタンスの一般提供を開始しました。このインスタンスは AWS Graviton4 プロセッサを搭載しており、AWS Graviton3 プロセッサと比較して最大 30% 優れたコンピューティングパフォーマンスを発揮します。M8gn インスタンスには最新の第 6 世代 AWS Nitro Card が搭載されており、最大 600 Gbps のネットワーク帯域幅を提供します。これは、ネットワーク最適化 EC2 インスタンスの中で最も高いネットワーク帯域幅です。M8gb は、最大 150 Gbps の EBS 帯域幅で、同じサイズの同等の Graviton4 ベースインスタンスよりも高い EBS パフォーマンスを実現します。\n  M8gn は、高性能ファイルシステム、分散ウェブスケールインメモリキャッシュ、キャッシングフリート、リアルタイムのビッグデータ分析、5G User Plane Function (UPF) などの通信事業者アプリケーションのような、ネットワーク集約型のワークロードにとって最適です。M8gb は、ハイパフォーマンスデータベースや NoSQL データベースのような、高いブロックストレージパフォーマンスが必要なワークロードにとって最適です。\n \nM8gn インスタンスでは、最大 48xlarge、最大 768 GiB メモリ、最大 600 Gbps のネットワーク帯域幅、Amazon Elastic Block Store (EBS) への最大 60 Gbps の帯域幅までのインスタンスサイズが用意されています。また 16xlarge、24xlarge、48xlarge のサイズの EFA ネットワークをサポートしています。\n  M8gb インスタンスでは、最大 24xlarge、最大 768 GiB メモリ、最大 150 Gbps の EBS 帯域幅、最大 200 Gbps のネットワーク帯域幅までのサイズが用意されています。これは 16xlarge と 24xlarge のサイズの Elastic Fabric Adapter (EFA) ネットワークをサポートしています。これにより、密結合のクラスター上にデプロイされたワークロードのレイテンシーを低減し、クラスターのパフォーマンスを改善できます。\n \nこの新しいインスタンスは、米国東部 (バージニア北部) と米国西部 (オレゴン) の AWS リージョンで利用できます。\n  詳細については、Amazon EC2 M8Gn および M8GB インスタンスに関するページを参照してください。Graviton の利用を開始するには、「AWS Graviton でコンピューティングをレベルアップする」ページにアクセスしてください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "7fbdb3f01a4f4f0465b3ebb7330a329db09a3ce7",
+      "title": "Amazon Aurora が Amazon RDS データベースプレビュー環境で PostgreSQL 18.1 のサポートを開始 ",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-aurora-postgresql-18-1-rds-database-preview",
+      "pubDate": "2025-12-17T17:00:00.000Z",
+      "contentSnippet": "Amazon Aurora PostgreSQL 互換エディションでは、Amazon RDS データベースプレビュー環境で PostgreSQL バージョン 18.1 のサポートを開始しました。これにより、Amazon Aurora PostgreSQL で PostgreSQL 18.1 を評価できます。PostgreSQL 18.1 は、2025 年 9 月 9 日に PostgreSQL コミュニティによってリリースされました。 \n  PostgreSQL 18.1 では、複数列の B ツリーインデックスに対する「スキップスキャン」がサポートされており、OR 条件および IN 条件の WHERE 句の処理が改善されています。また、並列 GIN インデックスの構築が導入され、結合操作が更新されています。オブザーバビリティの改善により、クエリ実行中のバッファ使用回数とインデックスルックアップ、および接続ごとの I/O 使用状況のメトリクスが表示されます。PostgreSQL 18.1 の詳細については、 こちらをご覧ください。\n  \n RDS データベースプレビュー環境のデータベースインスタンスでは、Aurora PostgreSQL データベースソフトウェアのプレビューバージョンを手動インストール、プロビジョニング、管理することなく、新しいデータベースエンジンをテストできます。クラスターは最大 60 日間保持された後、この保持期間後に自動的に削除されます。Amazon RDS データベースプレビュー環境のデータベースインスタンスの料金は、米国東部 (オハイオ) リージョンで作成された本番環境の Aurora インスタンスと同じです。\n  \n Amazon Aurora は MySQL および PostgreSQL との完全な互換性を備えており、圧倒的な高いパフォーマンスおよび可用性を世界規模で実現するように設計されています。このサービスは、組み込みのセキュリティ、継続的なバックアップ、サーバーレスコンピューティング、最大 15 のリードレプリカ、自動化されたマルチリージョンレプリケーション、AWS の他のサービスとの統合を提供します。Amazon Aurora の使用を開始するには、開始方法のページをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "7e4119e1de10b1e1364a2b4c2580a95d7289a608",
+      "title": "AWS が AWS Billing Conductor 向けのカスタム明細の管理の強化を発表",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/enhanced-custom-line-item-controls-aws-billing-conductor",
+      "pubDate": "2025-12-17T16:00:00.000Z",
+      "contentSnippet": "本日より、AWS Billing Conductor でカスタム明細項目の使用時の柔軟性が向上します。\n  1 つの AWS サービスか選択した AWS サービスのセットを対象とするサービス固有のカスタム明細項目を作成できるようになりました。また、請求ページ、Cost Explorer、コストと使用状況レコードなどのプロフォーマの請求アーティファクトでこれらの明細項目がどのように表示されるか選択できます。\n  これらの機能強化により、お客様の料金体系をより的確に反映した、より正確な調整済みのチャージバックと再請求の戦略を作成し、プロフォーマのユーザーの追跡可能性に関する環境を向上させることができます。この機能を使用して、Saving Plans の料金に割引率を適用したり、AWS サポートのサービスに基づいて共有の均一なサポート料金を割り当てたりできます。サービス固有のカスタム明細項目は、選択した料金プランのタイプに関係なく標準的な請求グループで使用できます。ただし、お客様が管理する料金プランを選択すると、請求転送の請求グループでのみ使用できます。\n  まず、AWS Billing Conductor コンソールまたは API を使用してカスタムの明細項目を作成し、コスト参照値 (1 つまたは複数の AWS サービス) と表示設定オプション (選択したサービスに基づいて項目別または一括) を指定します。 カスタム明細項目の詳細については、 AWS Billing Conductor に関するドキュメントをご覧ください。\n  この機能は、Sinnet 運営の AWS 中国 (北京) リージョン、NWCD 運営の AWS 中国 (寧夏) リージョンを除く、すべての AWS 商用リージョンでご利用いただけるようになりました。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "3171085d34f21ebc5916e03fb3e4acd8f1bbf30f",
+      "title": "EC2 Auto Scaling で Auto Scaling グループ内のインスタンスを起動するための同期 API の提供を開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/ec2-auto-scaling-synchronous-api-launch-instances-auto-scaling-group",
+      "pubDate": "2025-12-17T15:00:00.000Z",
+      "contentSnippet": "本日、EC2 Auto Scaling は LaunchInstances という新しい API をリリースします。これにより、お客様は EC2 Auto Scaling がインスタンスをプロビジョニングする方法をより柔軟に制御できると同時に、利用可能なキャパシティに関するフィードバックを即座に得ることができます。\n  EC2 Auto Scaling は自動フリート管理に使用されています。スケーリングポリシーに従い、EC2 Auto Scaling は、需要が急増した場合は自動的にインスタンスを追加し、トラフィックが減少した場合はインスタンスを削除できるため、お客様のアプリケーションに常に適切な量のコンピューティングを確保できます。EC2 Auto Scaling には、異常なインスタンスを監視して置き換える機能もあります。特定のユースケースで、お客様が EC2 Auto Scaling が追加のインスタンスを起動する場所を正確に指定したい場合や、利用可能なキャパシティに関するフィードバックをすぐに必要とする場合があります。新しい LaunchInstances API を使用すると、Auto Scaling グループ内の任意のアベイラビリティーゾーンやサブネットのオーバーライドを指定することで、インスタンスを起動する場所を正確に制御できると同時に、利用可能なキャパシティに関するフィードバックを即座に得ることができます。この同期オペレーションにより、お客様はスケーリング操作をリアルタイムで把握でき、必要に応じて代替戦略を迅速に実装できます。柔軟性を高めるため、API にはオプションの非同期再試行が含まれており、必要なキャパシティに達するのに役立ちます。\n  この機能は現在、すべての  AWS リージョンと AWS GovCloud (米国) リージョンで、標準的な EC2 と EBS の使用料以外の追加料金なしで利用できます。使用を開始するには、AWS コマンドラインインターフェイス (CLI) と AWS SDK を参照してください。この機能の詳細については、AWS ドキュメントをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "1b1bd64f2b1f80cb7976f5db297d16b8830491fb",
+      "title": "Amazon ECR Public が米国東部 (バージニア北部) の SDK エンドポイントに対する PrivateLink のサポートを開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-ecr-public-privatelink-us-east-n-virginia-sdk-endpoint",
+      "pubDate": "2025-12-17T15:00:00.000Z",
+      "contentSnippet": "Amazon Elastic Container Registry (ECR) Public が米国東部 (バージニア北部) の SDK エンドポイントに対して PrivateLink のサポートを開始し、ネットワークのセキュリティとプライベート接続が強化されています。この更新により、プライベートネットワーク接続を介してこの ECR Public の SDK エンドポイントにアクセスできるようになり、パブリックインターネットへの露出が軽減されます。\n  この機能強化により、ECR Public リポジトリを作成して管理しながら、Amazon Virtual Private Cloud (VPC) から ECR Public の SDK エンドポイントへのプライベート接続を確立できるようになりました。したがって、組織はネットワークのプライバシーとセキュリティを維持し、機密性の高いネットワークトラフィックの露出を減らし、準拠するネットワークセキュリティ要件を厳格化し、ECR Public リソースにアクセスするためのネットワークアーキテクチャを簡略化できます。\n  今すぐ米国東部 (バージニア北部) の ECR Public の SDK エンドポイントの使用を開始しましょう。\n \n詳細については、ECR に関するドキュメントをご参照ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "b38ff137a706255112f976903a58b85cb232fe7a",
+      "title": "Amazon EC2 C8g、M8g、R8g インスタンスを利用可能なリージョンが増加",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-ec2-c8g-m8g-r8g-instances-additional-regions",
+      "pubDate": "2025-12-17T15:00:00.000Z",
+      "contentSnippet": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8g および M8g インスタンスが AWS GovCloud (米国西部) で、また R8g および M8g インスタンスが AWS GovCloud (米国東部) リージョンで利用できるようになりました。これらのインスタンスは AWS Graviton4 プロセッサを搭載しており、Graviton3 ベースのインスタンスよりも最大 30% 高いパフォーマンスを発揮します。これらは、CPU 仮想化、ストレージ、およびネットワーク機能を専用のハードウェアとソフトウェアにオフロードして、ワークロードのパフォーマンスとセキュリティを強化する AWS Nitro System 上に構築されています。\n  AWS Graviton4 ベースの Amazon EC2 インスタンスは、Amazon EC2 で実行される幅広いワークロードに最高のパフォーマンスとエネルギー効率をもたらします。これらのインスタンスは、Graviton3 ベースの Amazon C8g、M8g、R8g インスタンスと比較して、インスタンスサイズが大きく、最大 3 倍の vCPU とメモリを備えています。AWS Graviton4 プロセッサは、AWS Graviton3 プロセッサに比べて、データベースでは最大 40%、ウェブアプリケーションでは 30%、大規模な Java アプリケーションでは 45% 高速です。C8g および R8g インスタンスは、2 つのベアメタルサイズを含む 12 種類のインスタンスサイズで利用できます。これらは、Amazon Elastic Block Store (Amazon EBS) に最大 50 Gbps の拡張ネットワーク帯域幅と最大 40 Gbps の帯域幅を提供します。\n  詳細については、Amazon EC2 C8g インスタンス、Amazon EC2 M8g インスタンス、Amazon EC2 R8g インスタンスの各ページを参照してください。ワークロードを Graviton ベースのインスタンスに移行する方法を調べるには、AWS Graviton Fast Start プログラムと Porting Advisor for Graviton をご覧ください。利用を開始するには、AWS GovCloud (米国) コンソールを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "323d4af14d16050ac76d1adc7917c15057acf90c",
+      "title": "Amazon EC2 C8g インスタンスが欧州 (チューリッヒ) で利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-ec2-c8g-instances-europe-zurich",
+      "pubDate": "2025-12-17T15:00:00.000Z",
+      "contentSnippet": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8g インスタンスが AWS 欧州 (チューリッヒ) リージョンで利用可能になりました。これらのインスタンスは AWS Graviton4 プロセッサを搭載しており、Graviton3 ベースのインスタンスよりも最大 30% 高いパフォーマンスを発揮します。Amazon EC2 C8g インスタンスは、ハイパフォーマンスコンピューティング (HPC)、バッチ処理、ゲーム、動画エンコーディング、科学的モデリング、分散分析、CPU ベースの機械学習 (ML) 推論、広告配信などのコンピューティングを多用するワークロードに最適です。これらのインスタンスは、CPU 仮想化、ストレージ、およびネットワーク機能を専用のハードウェアとソフトウェアにオフロードして、ワークロードのパフォーマンスとセキュリティを強化する AWS Nitro System 上に構築されています。\n  AWS Graviton4 ベースの Amazon EC2 インスタンスは、Amazon EC2 で実行される幅広いワークロードに最高のパフォーマンスとエネルギー効率をもたらします。これらのインスタンスは、Graviton3 ベースの Amazon C7g インスタンスと比較して、インスタンスサイズが大きく、最大 3 倍の vCPU とメモリを備えています。AWS Graviton4 プロセッサは、AWS Graviton3 プロセッサに比べて、データベースでは最大 40%、ウェブアプリケーションでは 30%、大規模な Java アプリケーションでは 45% 高速です。C8g インスタンスは、2 つのベアメタルサイズを含む 12 種類のインスタンスサイズで利用できます。これらは、Amazon Elastic Block Store (Amazon EBS) に最大 50 Gbps の拡張ネットワーク帯域幅と最大 40 Gbps の帯域幅を提供します。\n  詳細については、Amazon EC2 C8g インスタンスをご覧ください。使用を開始するには、AWS マネジメントコンソールをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "70eda0c8bba1d7210422500e7ee9c7e53ba4248a",
+      "title": "Amazon OpenSearch Service が新しい OI2 インスタンスを発表",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-opensearch-service-oi2-instances/",
+      "pubDate": "2025-12-17T14:00:00.000Z",
+      "contentSnippet": "Amazon OpenSearch Service では、OI2 インスタンスが導入され、OpenSearch 最適化インスタンスファミリーが拡張されました。新しい OI2 インスタンスは、内部ベンチマークでは OR2 インスタンスと比較して最大 9%、I8g インスタンスと比較して最大 33% 高いインデックス作成スループットを提供します。\n \n新しい OI2 OpenSearch 最適化インスタンスは OR2 インスタンスと同じアーキテクチャを使用しており、Amazon S3 などのクラス最高のクラウドテクノロジーを活用して高い耐久性とコストパフォーマンスを実現し、高いインデックススループットを実現して負荷の高いワークロードのインデックス作成に向いています。各 OpenSearch 最適化インスタンスには、コンピューティング、キャッシュ用の第 3 世代の AWS Nitro SSD、リモート Amazon S3 ベースのマネージドストレージがプロビジョニングされています。OI2 では、従量制料金のリザーブドインスタンスが提供され、NVMe ストレージを含むインスタンスや、プロビジョニングされたマネージドストレージに対して単純な時間単位の料金が適用されます。 OI2 インスタンスには「large」から「24xlarge」までのサイズがあり、コンピューティング、メモリ、最大 22.5 TB のストレージを選択できます。料金の詳細については、Amazon OpenSearch Service の料金ページをご覧ください。\n  OI2 インスタンスファミリーは、米国東部 (バージニア北部、オハイオ)、米国西部 (オレゴン)、カナダ (中部)、アジアパシフィック (ムンバイ、シンガポール、シドニー、東京)、欧州 (フランクフルト、アイルランド、ロンドン、スペイン) の世界 12 リージョンで Amazon OpenSearch Service 上で利用できるようになりました。",
+      "siteName": "AWS What's New"
+    },
+    {
       "id": "038d3ec98f5a49a9130b32f13839dc9d5021fe52",
       "title": "AWS Payment Cryptography がシドニーで AS2805 サポート付きで利用可能に",
       "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-payment-cryptography-in-sydney/",
       "pubDate": "2025-12-17T08:00:00.000Z",
       "contentSnippet": "本日より、AWS Payment Cryptography がオーストラリア (シドニー) リージョンに拡大され、AS2805 機能をサポートするようになりました。この拡張は、このサービスの世界で 13 番目の AWS リージョンとなります。AS2805 の機能により、お客様はこの標準を利用する他社との運用性を維持しながら、より多くの決済ワークロードを AWS に移行できます。\n  オーストラリア、ニュージーランド、その他いくつかの国では、カード決済における組織間の暗号管理の一貫したアプローチとして、Australia Standards 2805 (AS2805) を採用しています。従来、これらの企業は、これらの操作を準拠した互換性のある方法で実行するためにハードウェアセキュリティモジュール (HSM) を必要としていました。AWS Payment Cryptography は、伸縮自在なスケーラブルサービスで、ノード間のユースケースに同等の機能を提供するようになりました。これにより、スタンドアロンハードウェアの調達と管理の運用上の負担がなくなります。お客様は、AWS IAM や AWS CloudTrail と統合された API を使用しながら、サービスの PCI 認定 HSM の使用を全体的なコンプライアンスプログラムの一部として活用できます。\n  AWS Payment Cryptography は、カナダ (モントリオール)、米国東部 (オハイオ、バージニア北部)、米国西部 (オレゴン)、欧州 (アイルランド、フランクフルト、ロンドン)、アフリカ (ケープタウン)、アジアパシフィック (シンガポール、東京、大阪、ムンバイ)、オーストラリア (シドニー) の AWS リージョンでご利用いただけます。\n  サービスの使用を開始するには、最新の AWS CLI/SDK をダウンロードし、追加のコンプライアンス詳細を含め、AWS Payment Cryptography ユーザーガイドを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "a64acda3b7ea19da1388cb59235c93c15a14c932",
+      "title": "Amazon Redshift Serverless が IPv6 をサポートするデュアルスタックモードの一般提供開始を発表",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-redshift-serverless-announces-dual-stack-mode-ipv6/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "Amazon Redshift Serverless は、インターネットプロトコルバージョン 6 (IPv6) をサポートするデュアルスタックモードの一般提供開始を発表しました。この機能強化により、ネットワークインフラストラクチャを最新化し、増大するインターネット接続の需要に対応できます。\n  Redshift Serverless は、IPv4 アドレスと IPv6 アドレスの両方を使用する (デュアルスタック) Redshift ワークグループの設定、または AWS Virtual Private Cloud (VPC) 内での IPv4 のみの設定をサポートしています。新しく Redshift Serverless ワークグループを作成する際に IPv6 サポートを有効にしたり、IPv6 アドレス指定をサポートするように既存のワークグループを変更したりできます。この機能により、IPv6 対応の VPC サブネット内に Redshift ウェアハウスをデプロイし、拡大するアプリケーションのアドレススペース要件に対応するようにネットワーク設定を構成できます。アプリケーションが IPv4 または IPv6 プロトコルを使用して Redshift ウェアハウスと通信できるようになり、既存の、さらには将来のネットワークアーキテクチャとの互換性が確保されます。\n \nこの機能は、Redshift Serverless が提供されているすべての AWS 商用リージョンでご利用いただけます。利用を開始するには、ドキュメントとブログをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "0b05bb3f8730a4b22ce5dc69667a335b4f49201c",
+      "title": "AWS Security Incident Response が、さらに 10 の AWS リージョンで利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/security-incident-response-ten-regions/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "AWS Security Incident Response が、アフリカ (ケープタウン)、アジアパシフィック (香港、ハイデラバード、ジャカルタ、メルボルン)、欧州 (チューリッヒ、ミラノ、スペイン)、中東 (UAE、バーレーン) のさらに 10 のオプトイン AWS リージョンで利用できるようになりました。これらの追加リージョンを使用して、セキュリティイベントへの備え、対応、復旧をより迅速かつ効果的に行うことができるようになりました。\n  AWS Security Incident Response は、自動化されたセキュリティ検出結果の監視とトリアージ、AI を活用した調査、封じ込め機能により、セキュリティインシデント対応ライフサイクルのすべてのステップを合理化します。専門的な専門知識が必要な場合、セキュリティインシデントレスポンスを利用すると、AWS のセキュリティ専門家の専任グループに 24 時間 365 日直接連絡でき、数分以内にお客様のリクエストに対応します。この自動化と専門知識の強力な組み合わせにより、セキュリティ運用を確実に拡大できるため、イノベーションと成長に集中できます。\n  詳細については、AWS Security Incident Response ページとドキュメントを参照してください。リージョンと言語のサポートについては、サポートされる設定に関するページを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "bb7adb32119f7de86157cca0e636b0aa0c57ded4",
+      "title": "AWS IAM アイデンティティセンターがアジアパシフィック (台北) AWS リージョンで利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-iam-identity-center-asia-pacific-taipei-region/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "アジアパシフィック (台北) を含む 37 の AWS リージョンに AWS IAM アイデンティティセンターをデプロイできるようになりました。\n  IAM アイデンティティセンターは、AWS アプリケーションへの従業員によるアクセスを管理するために推奨されるサービスです。IAM アイデンティティセンターを使用すると、従業員の既存の ID ソースを AWS に一度接続するだけで、AWS 全体でユーザーにシングルサインオン環境を提供できます。また、Amazon Q などの AWS アプリケーションが提供するパーソナライズされたエクスペリエンスを向上させ、Amazon Redshift といった AWS のサービスのデータに対するユーザー認識アクセスを定義および監査する機能を強化します。また、複数の AWS アカウントへのアクセスを一元的に管理できます。IAM アイデンティティセンターは、こちらの AWS リージョンで追加料金なしで利用できます。\n  IAM アイデンティティセンターの詳細については、製品の詳細ページをご覧ください。使用を開始するには、IAM アイデンティティセンターユーザーガイドを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "7cd21ebebf7ae3b45e48510300cc1f7d6af634a2",
+      "title": "AWS Payment Cryptography が API の料金を最大 63% 値下げし、キーの階層化された料金を導入",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-payment-cryptography-lower-pricing/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "本日、AWS Payment Cryptography は、既存のすべての層にわたる API リクエストの最大 63% の大幅な値下げを発表し、新しい第 4 層を導入しました。この変更により、すべてのリージョンで価格が統一されるので、料金を気にせずより大量のワークロードをサービスに移行できるようになります。今回の更新の一環として、キーの料金を均一料金から階層化された料金に移行し、大量の暗号化キーを管理する必要があるお客様へのサポートを強化しました。この新しい料金モデルにより、キー管理と支払い処理の両方の業務をコスト効率の高い方法でスケールでき、同時に量にかかわらずコストを最適化できます。\n  AWS Payment Cryptography は、専用の決済ハードウェアセキュリティモジュール (HSM) インスタンスを調達しなくても、Payment Card Industry (PCI) のセキュリティ基準に従って支払い処理に使用される暗号化機能とキー管理へのアクセスを提供するマネージド型 AWS サービスです。このサービスにより、買収企業、決済ファシリテーター、ネットワーク、スイッチ、プロセッサー、銀行などの決済機能を実行するお客様は、クラウド内のアプリケーションに近い場所で決済暗号操作を行うことができるようになり、専用の支払い HSM を含む補助データセンターやコロケーション施設への依存を最小限に抑えることができます。\n  この料金変更は、2025 年 12 月 15 日以降、AWS Payment Cryptography を利用できるすべての AWS リージョンで有効になり、特に何もしなくても自動的にすべてのお客様に適用されます。料金の詳細については、AWS Payment Cryptography の料金ページを参照してください。このサービスの詳細については、AWS Payment Cryptography のユーザーガイドを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "7258b87ca3eb23b84766a15e5aa699d1199cc4ec",
+      "title": "Amazon OpenSearch Service が新しい多層ストレージの提供を開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/writeable-warm-tier-opensearch-optimized-instances/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "Amazon OpenSearch Service は、OpenSearch 最適化インスタンスを利用した新しい多層ストレージオプションの提供を開始しました。この新しいアーキテクチャでは、Amazon S3 クラウドのテクノロジーとローカルインスタンスストレージを組み合わせて、耐久性とパフォーマンスを改善できます。この新しい多層アーキテクチャには、ホットとウォームの 2 つの層があります。ホット層は頻繁にアクセスされるデータに対応し、ウォーム層はアクセス頻度の低いデータ向けのコスト効率の高いストレージとして Amazon S3 を活用します。 \n  これまでは、Amazon OpenSearch Service は UltraWarm を利用してウォーム層をサポートし、読み取り専用データ向けのコスト効率の高いストレージを提供していました。新しいウォーム層は OpenSearch 最適化インスタンスを利用しており、書き込み操作をサポートしているので、データ管理の柔軟性が向上します。インデックス状態管理機能を使用して、データが古くなるにつれてホットからウォームへと自動的にローテーションできます。\n \nウォーム層のデプロイでは、OpenSearch 最適化 (OI2) インスタンス (「large」から「8xlarge」までのサイズ) と、ローカルキャッシュサイズの最大 5 倍のアドレス可能なウォームを併用できます。ウォームデータには標準的なマネージドストレージの料金が適用されます。この新しい多層環境は OpenSearch 3.3 以降で利用可能です。詳細については、ドキュメントをご参照ください。\n  OI2 インスタンスファミリーの新しい多層環境は、米国東部 (バージニア北部、オハイオ)、米国西部 (オレゴン)、カナダ (中部)、アジアパシフィック (ムンバイ、シンガポール、シドニー、東京)、欧州 (フランクフルト、アイルランド、ロンドン、スペイン) の世界 12 リージョンで Amazon OpenSearch Service 上で利用できるようになりました。  料金の詳細については、Amazon OpenSearch Service の料金ページをご覧ください",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "ff982b94f52aba0aceed5820050ddfc6292e9a96",
+      "title": "Amazon EC2 M8g インスタンスを利用可能なリージョンが増加",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/amazon-ec2-m8g-additional-regions/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) M8g インスタンスが、アジアパシフィック (タイ、ジャカルタ、メルボルン) および AWS 中東 (UAE) リージョンで利用可能になりました。これらのインスタンスは AWS Graviton4 プロセッサを搭載しており、Graviton3 ベースのインスタンスよりも最大 30% 高いパフォーマンスを発揮します。Amazon EC2 M8g は一般用途のワークロードに特化したインスタンスです。利用目的としては、アプリケーションサーバー、マイクロサービス、ゲームサーバー、中規模データストア、キャッシュフリートなどがあります。これらのインスタンスは、CPU 仮想化、ストレージ、およびネットワーク機能を専用のハードウェアとソフトウェアにオフロードして、ワークロードのパフォーマンスとセキュリティを強化する AWS Nitro System 上に構築されています。\n  AWS Graviton4 ベースの Amazon EC2 インスタンスは、Amazon EC2 で実行される幅広いワークロードに最高のパフォーマンスとエネルギー効率をもたらします。これらのインスタンスは、Graviton3 ベースの Amazon M7g インスタンスと比較して、インスタンスサイズが大きく、最大 3 倍の vCPU とメモリを備えています。AWS Graviton4 プロセッサは、AWS Graviton3 プロセッサに比べて、データベースでは最大 40%、ウェブアプリケーションでは 30%、大規模な Java アプリケーションでは 45% 高速です。M8g インスタンスには、2 つのベアメタルサイズを含む 12 種類のサイズがあります。これらは、Amazon Elastic Block Store (Amazon EBS) に最大 50 Gbps の拡張ネットワーク帯域幅と最大 40 Gbps の帯域幅を提供します。\n  詳細については、Amazon EC2 M8g Instances を参照してください。ワークロードをどのように Graviton ベースのインスタンスに移行するかを調べるには、AWS Graviton Fast Start プログラムと Porting Advisor for Graviton をご覧ください。使用を開始するには、AWS マネジメントコンソールをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "083ef842c44b7e6c0fb1fb3c1783000daffd4034",
+      "title": "Amazon EC2 R8g インスタンスを利用可能なリージョンが増加",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/ec2-r8g-instances-additional-regions/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) R8g インスタンスが AWS 欧州 (パリ) およびアジアパシフィック (ハイデラバード) リージョンで利用可能になりました。これらのインスタンスは AWS Graviton4 プロセッサを搭載しており、Graviton3 ベースのインスタンスよりも最大 30% 高いパフォーマンスを発揮します。Amazon EC2 R8g インスタンスは、データベース、インメモリキャッシュ、リアルタイムビッグデータ分析などのメモリ集中型ワークロードに最適です。これらのインスタンスは、CPU 仮想化、ストレージ、およびネットワーク機能を専用のハードウェアとソフトウェアにオフロードして、ワークロードのパフォーマンスとセキュリティを強化する AWS Nitro System 上に構築されています。\n  AWS Graviton4 ベースの Amazon EC2 インスタンスは、Amazon EC2 で実行される幅広いワークロードに最高のパフォーマンスとエネルギー効率をもたらします。AWS Graviton4 ベースの R8g インスタンスは、Graviton3 ベースの R7g インスタンスよりも最大 3 倍大きい vCPU (最大 48xlarge) とメモリ (最大 1.5 TB) を備えた、より大きなインスタンスサイズを提供します。これらのインスタンスは、AWS Graviton3 ベースの R7g インスタンスと比較して、ウェブアプリケーションでは最大 30%、データベースでは最大 40%、大規模な Java アプリケーションでは最大 45% 高速です。R8g インスタンスは、2 つのベアメタルサイズを含む 12 種類のインスタンスサイズで利用できます。これらは、Amazon Elastic Block Store (Amazon EBS) に最大 50 Gbps の拡張ネットワーク帯域幅と最大 40 Gbps の帯域幅を提供します。\n  詳細については、Amazon EC2 R8g インスタンスをご覧ください。ワークロードをどのように Graviton ベースのインスタンスに移行するかを調べるには、AWS Graviton Fast Start プログラムと Porting Advisor for Graviton をご覧ください。使用を開始するには、AWS マネジメントコンソールをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "3601c96633e540851dcd5e5b1c03453f218f95ad",
+      "title": "Amazon EC2 C8i および C8i-flex インスタンスがアジアパシフィック (シンガポール) リージョンで利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/ec2-c8i-c8i-flex-instances-singapore-region/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "本日より、Amazon Elastic Compute Cloud (Amazon EC2) C8i および C8i-flex インスタンスがアジアパシフィック (シンガポール) リージョンで利用できるようになります。これらのインスタンスは、AWS でのみ利用可能なカスタム Intel Xeon 6 プロセッサを搭載しており、クラウド内の同等の Intel プロセッサの中で最高のパフォーマンスと最速のメモリ帯域幅を提供します。C8i インスタンスと C8i-flex インスタンスは、前世代の Intel ベースのインスタンスと比較して、コストパフォーマンスが最大 15% 向上し、メモリ帯域幅も 2.5 倍向上しています。C7i および C7i-flex インスタンスと比較した場合、パフォーマンスは最大で 20% 向上し、一部のワークロードではより高いパフォーマンスが実現します。C8i および C8i-flex は、C7i および C7i-flex と比較して、NGINX ウェブアプリケーションでは最大 60％、AI 深層学習推奨モデルでは最大 40％、Memcached ストアでは最大 35％ 高速です。\n  C8i-flex は、ウェブサーバーやアプリケーションサーバー、データベース、キャッシュ、Apache Kafka、Elasticsearch、エンタープライズアプリケーションなど、コンピューティング負荷の高いワークロードの大部分で価格パフォーマンスのメリットを得る最も簡単な方法です。large から 16xlarge までの非常に一般的なサイズを提供しており、すべてのコンピューティングリソースをフルに活用しきれていないアプリケーションに最適な選択肢です。\n  C8i インスタンスは、メモリ負荷の高いワークロード全般に適しています。特に、最大のインスタンスサイズや継続的に高い CPU 使用率を必要とするワークロードに最適です。C8i インスタンスは、13 種類のサイズで提供されています。そのうち 2 つはベアメタルサイズで、大規模なアプリケーションに対応する新しいサイズ 96xlarge も追加されています。\n  使用を開始するには、AWS マネジメントコンソールにサインインしてください。このインスタンスは、Savings Plans、オンデマンドインスタンス、スポットインスタンスでご購入いただけます。この新しい C8i と C8i-flex のインスタンスの詳細については、AWS ニュースブログをご覧ください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "225bd32334d48e813746bb2b0737e3928b8093cf",
+      "title": "AWS Marketplace が必須の発注書とカスタムのメッセージのサポートを開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-marketplace-mandatory-purchase-orders-custom-messaging",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "AWS Marketplace で、購入時の必須の発注書の要求とカスタムのメッセージのサポートが開始されたので、組織は調達のガバナンスを強化できます。これらの機能は、調達、ソフトウェア資産管理、クラウドガバナンスのチームが、すばやく購入の判断や行動ができる状態を維持しながらコンプライアンスポリシーを順守させるのに役立ちます。\n  管理者は、購入者が AWS Marketplace を通じて製品にサブスクライブする際に発注書を提出するよう要求することで、義務的な発注ポリシーを順守させることができるようになりました。このような要求は、さまざまな料金タイプにわたるプライベートオファーやパブリックオファーを通じて行う購入に適用できます。さらに管理者は、調達ページにカスタムメッセージを追加して、ポリシーの要件やサポートの連絡先について案内できます。組織は、カスタムメッセージを実装せずに発注書の要求を実装したり、カスタムメッセージを使用して購入者に調達プロセスを案内したり、両方の機能を組み合わせてより包括的なガバナンスを実現したりできます。これらの機能は Private Marketplace とも併用できるので、AWS 組織内の特定のユーザーやグループに対して承認した製品の厳選されたカタログを作成できます。このような柔軟性があるので、財務や調達のチームは、購入時にコンプライアンスを順守させ、コスト配分の精度を改善し、調達から支払いまでのサイクルを合理化することができます。\n  これらの機能は現在、AWS Marketplace がサポートされているすべての AWS リージョンで利用できます。\n  発注書の要求とカスタムメッセージについては、AWS Marketplace の購入者ガイドを参照してください。",
+      "siteName": "AWS What's New"
+    },
+    {
+      "id": "55826a0f521fa0b180aa56cab0a8c9c3b6d6cf3b",
+      "title": "AWS Payment Cryptography がアジアパシフィック (ハイデラバード) と欧州 (パリ) で利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2025/12/aws-payment-cryptography-available-in-hyderabad-paris/",
+      "pubDate": "2025-12-17T08:00:00.000Z",
+      "contentSnippet": "AWS Payment Cryptography は、アジアパシフィック (ハイデラバード) と欧州 (パリ) の 2 つの新しいリージョンで提供を開始し、より多くの国や地域で利用できるようになりました。こうしたリージョンの拡大により、クロスリージョン構成を使用することなく、レイテンシーの影響を受けやすい支払いアプリケーションを新しい AWS リージョンで構築、デプロイしたり、新しい AWS リージョンに移行できるようになります。これらのリージョンでは、欧州とインドでのマルチリージョンの高可用性を実現するためのオプションが追加されています。\n  AWS Payment Cryptography は、クラウドホスト型決済アプリケーションの支払い固有の暗号化操作とキー管理を簡素化するフルマネージドサービスです。このサービスはお客様のビジネスニーズに合わせて柔軟にスケールすることができ、PCI PIN 要件と PCI P2PE 要件に準拠していると評価されているため、専用の支払い HSM インスタンスを維持する必要がありません。加盟店契約会社、決済代行業者、決済ネットワーク運営者、決済ルーティングシステム運営者、決済処理業者、銀行などの決済機能を実行する組織は、専用の支払い HSM を備えた補助データセンターへの依存を減らしながら、アプリケーションに近い場所で決済暗号化オペレーションを実行できるようになりました。\n  AWS Payment Cryptography は、カナダ (モントリオール)、米国東部 (オハイオ、バージニア北部)、米国西部 (オレゴン)、欧州 (アイルランド、フランクフルト、ロンドン、パリ)、アフリカ (ケープタウン)、アジアパシフィック (シンガポール、東京、大阪、ムンバイ、ハイデラバード) の AWS リージョンでご利用いただけます。\n  サービスの使用を開始するには、最新の AWS CLI/SDK をダウンロードし、詳細については AWS Payment Cryptography ユーザーガイドを参照してください。",
       "siteName": "AWS What's New"
     },
     {
@@ -1051,5 +1203,5 @@
       "siteName": "AWS What's New"
     }
   ],
-  "lastUpdated": "2026-01-03T01:01:58.531Z"
+  "lastUpdated": "2026-01-03T03:52:13.240Z"
 }

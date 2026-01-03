@@ -3,6 +3,14 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "oFmhJ9CyNCxvPu6OKaDyO",
+      "title": "LaunchInstances API を利用して、指定した特定の AZ に EC2 インスタンスを起動してみた",
+      "link": "https://dev.classmethod.jp/articles/ec2-auto-scaling-launchinstances-api-az/",
+      "pubDate": "2026-01-03T02:00:29.000Z",
+      "contentSnippet": "LaunchInstances API を利用して、指定した特定の AZ に EC2 インスタンスを起動してみた",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "2fG7UTvPPkbAedcn6ZJaAd",
       "title": "OU (Organizations Unit) 再構成後に Temporary elevated access management (TEAM) for AWS IAM Identity Center のリクエスト作成時にアカウントが選択できなくなった",
       "link": "https://dev.classmethod.jp/articles/team-ou-eligibility-policy/",
@@ -523,5 +531,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2026-01-03T01:01:58.393Z"
+  "lastUpdated": "2026-01-03T03:52:13.061Z"
 }
