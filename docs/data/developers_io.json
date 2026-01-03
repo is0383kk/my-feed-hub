@@ -3,6 +3,14 @@
   "categoryName": "Developers.IO",
   "articles": [
     {
+      "id": "2fG7UTvPPkbAedcn6ZJaAd",
+      "title": "OU (Organizations Unit) 再構成後に Temporary elevated access management (TEAM) for AWS IAM Identity Center のリクエスト作成時にアカウントが選択できなくなった",
+      "link": "https://dev.classmethod.jp/articles/team-ou-eligibility-policy/",
+      "pubDate": "2026-01-02T23:40:41.000Z",
+      "contentSnippet": "OU (Organizations Unit) 再構成後に Temporary elevated access management (TEAM) for AWS IAM Identity Center のリクエスト作成時にアカウントが選択できなくなった",
+      "siteName": "Developers.IO"
+    },
+    {
       "id": "7KHFeQtkkJaEcPxEdYB5HF",
       "title": "[小ネタ] Strands AgentsのツールでAmazon Bedrock AgentCore Code Interpreterが簡単に使用できるようになっていた",
       "link": "https://dev.classmethod.jp/articles/strands-agents-builtin-tools-code-interpreter/",
@@ -515,5 +523,5 @@
       "siteName": "Developers.IO"
     }
   ],
-  "lastUpdated": "2026-01-02T21:10:58.950Z"
+  "lastUpdated": "2026-01-03T01:01:58.393Z"
 }
